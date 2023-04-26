@@ -14,29 +14,39 @@ import avatar from './avatar.png'
 * */
 
 // нужно создать правильный тип вместо any
-export type MessageType = any
+export type MessageType = {
+    id: number,
+    user: {
+        avatar: string,
+        name: string
+    }
+    message: {
+        text: string,
+        time: string
+    }
+}
 
 // структуру объекта не менять
 export const message0: MessageType = {
     id: 0,
     user: {
-        avatar: avatar, // можно менять
-        name: 'Some Name',  // можно менять
+        avatar: 'https://wordpress.iqonic.design/product/wp/socialv/wp-content/uploads/avatars/16/1656592682-bpfull.jpg', // можно менять
+        name: 'Ruslan',  // можно менять
     },
     message: {
-        text: 'some textsome textsome textsome textsome textsome textsome text', // можно менять
-        time: '22:00', // можно менять
+        text: 'Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? ', // можно менять
+        time: '09:00', // можно менять
     },
 }
 export const friendMessage0: MessageType = {
     id: 100,
     user: {
-        avatar: avatar, // можно менять
-        name: 'Friend Name', // можно менять
+        avatar: 'https://wordpress.iqonic.design/product/wp/socialv/wp-content/uploads/avatars/65/1665463023-bpfull.png', // можно менять
+        name: 'Max', // можно менять
     },
     message: {
-        text: 'зеркальное сообщение для тренировки css', // можно менять
-        time: '22:00', // можно менять
+        text: 'Hey! I am fine.', // можно менять
+        time: '09:01', // можно менять
     },
 }
 
