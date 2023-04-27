@@ -1,7 +1,6 @@
 .message {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: flex-end;
     margin: 24px auto;
     max-width: 1280px;
