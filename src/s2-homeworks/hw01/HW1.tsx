@@ -3,14 +3,13 @@ import Message from './message/Message'
 import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
-import avatar from './avatar.png'
 
 /*
-* 1 - описать тип MessageType
-* 2 - описать тип MessagePropsType в файле Message.tsx
-* 3 - в файле Message.tsx отобразить приходящие данные
-* 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx
-* 5 - сделать стили в соответствии с дизайном
+* 1 + описать тип MessageType
+* 2 + описать тип MessagePropsType в файле Message.tsx
+* 3 + в файле Message.tsx отобразить приходящие данные
+* 4 + выполнить пункты 2, 3 в файле FriendMessage.tsx
+* 5 + сделать стили в соответствии с дизайном
 * */
 
 // нужно создать правильный тип вместо any
@@ -34,7 +33,7 @@ export const message0: MessageType = {
         name: 'Ruslan',  // можно менять
     },
     message: {
-        text: 'Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? Hello! How are you? ', // можно менять
+        text: 'Hi. How are you?', // можно менять
         time: '09:00', // можно менять
     },
 }
