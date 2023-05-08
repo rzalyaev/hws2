@@ -2,19 +2,41 @@
 }
 
 .input {
+    box-sizing: border-box;
+    width: 372px;
+    height: 36px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+@media (max-width: 425px) {
+    .input {
+        width: 100%;
+    }
 }
 
 .inputWrapper {
+    position: relative;
 }
 
 .superInput {
+    border-color: #d1d1d1;
 }
 
 .errorInput {
+    border-color: #CC1439;
 }
 
 .errorInput:focus {
 }
 
 .error {
+    position: absolute;
+    top: -17px;
+    left: 0;
+    color: #CC1439;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
 }
