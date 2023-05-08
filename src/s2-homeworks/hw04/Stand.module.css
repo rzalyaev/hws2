@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1280px;
+    min-height: 336px;
+    margin: 0 auto;
 }
 
 .inputs {
@@ -20,4 +23,11 @@
     display: flex;
     flex-direction: column;
     gap: 36px;
+}
+
+@media (max-width: 900px) {
+    .stand {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
