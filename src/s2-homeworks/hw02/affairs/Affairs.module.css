@@ -59,3 +59,9 @@
     flex-wrap: wrap;
     max-width: 450px;
 }
+
+@media (max-width: 380px) {
+    .buttonContainer {
+        flex-wrap: wrap;
+    }
+}
