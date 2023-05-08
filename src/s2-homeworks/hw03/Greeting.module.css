@@ -74,3 +74,9 @@
 .greeting {
     margin: 10px 0 0 0;
 }
+
+@media (max-width: 380px) {
+    .inputAndButtonContainer {
+        flex-wrap: wrap;
+    }
+}
