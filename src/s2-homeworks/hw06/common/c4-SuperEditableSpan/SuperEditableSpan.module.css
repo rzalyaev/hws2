@@ -1,11 +1,22 @@
 .spanBlock {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-height: 36px;
 }
 
 .span {
+    color: #0080FF;
 }
 
 .input {
+    padding: 8px 24px;
+    color: #000000;
 }
 
 .pen {
+    width: 24px;
+    height: 24px;
 }
