@@ -20,3 +20,9 @@
     font-size: 14px;
     line-height: 20px;
 }
+
+@media (max-width: 330px) {
+    .buttonsContainer {
+        flex-direction: column;
+    }
+}
