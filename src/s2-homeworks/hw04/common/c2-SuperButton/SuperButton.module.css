@@ -3,6 +3,7 @@
     padding: 5px 24px;
     background-color: #00c5ff;
     border-radius: 3px;
+    width: max-content;
 }
 
 .disabled {
