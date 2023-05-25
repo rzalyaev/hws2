@@ -18,13 +18,13 @@
 }
 
 .users {
-    width: 606px;
+    max-width: 606px;
     border-spacing: 0;
     font-family: 'Roboto', sans-serif;
 }
 
 .buttonsContainer {
-    width: 606px;
+    max-width: 606px;
     display: flex;
     justify-content: flex-end;
     gap: 12px;
