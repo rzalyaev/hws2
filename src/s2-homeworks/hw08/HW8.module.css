@@ -48,3 +48,10 @@
 .ageCol {
     font-weight: 500;
 }
+
+@media (max-width: 462px) {
+    .buttonsContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
