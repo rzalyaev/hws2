@@ -7,10 +7,10 @@ import {changeThemeId} from './bll/themeReducer'
 import {AppStoreType} from "../hw10/bll/store";
 
 /*
-* 1 - в файле themeReducer.ts написать нужные типы вместо any, дописать редьюсер
-* 2 - получить themeId из редакса
-* 3 - дописать тип и логику функции change
-* 4 - передать пропсы в SuperSelect
+* 1 + в файле themeReducer.ts написать нужные типы вместо any, дописать редьюсер
+* 2 + получить themeId из редакса
+* 3 + дописать тип и логику функции change
+* 4 + передать пропсы в SuperSelect
 * */
 
 export type ThemeType = {
@@ -30,6 +30,8 @@ const HW12 = () => {
 
     const dispatch = useDispatch()
 
+    const change = (id: number) => { // дописать функцию
+        dispatch(changeThemeId(id))
     }
 
     useEffect(() => {
