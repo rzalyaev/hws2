@@ -18,6 +18,13 @@ html {
     color: var(--color);
 }
 
-.select {
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 336px;
+}
 
+.select {
+    height: max-content;
+    padding: 5px 10px;
 }
