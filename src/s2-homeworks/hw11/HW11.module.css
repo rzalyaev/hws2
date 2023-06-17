@@ -1,6 +1,7 @@
 .container {
     width: 1280px;
     margin: 0 auto;
+    min-height: 336px;
 }
 
 .wrapper {
@@ -17,5 +18,4 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    color: #000000;
 }
