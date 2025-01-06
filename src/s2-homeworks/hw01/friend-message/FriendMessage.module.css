@@ -1,31 +1,54 @@
 .friendMessage {
-
+    margin-bottom: 30px;
+    min-height: 60px;
 }
 
 .friendImageAndText {
-
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
 }
 
 .friendImageAndText img {
-
+    margin-right: 12px;
+    width: 48px;
+    height: 48px;
 }
 
 .friendText {
-
+    position: relative;
+    padding: 7px 13px 8px 13px;
+    min-width: 200px;
+    max-width: calc(50% - 48px - 12px);
+    border-radius: 5px 5px 5px 0;
+    color: black;
+    background-color: #F5F7FB;
+    box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.1),
+                0 5px 20px 0 rgba(29, 33, 38, 0.03);
 }
 
 .friendText:after {
-
+    content: '';
+    position: absolute;
+    left: -13px;
+    bottom: 0;
+    border: 7px solid transparent;
+    border-bottom: 7px solid #F5F7FB;
+    border-right: 7px solid #F5F7FB;
 }
 
 .friendName {
-
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .friendMessageText {
-
+    white-space: wrap;
 }
 
 .friendTime {
-
+    margin-left: 11px;
+    font-size: 10px;
+    font-weight: 600;
 }

@@ -14,7 +14,19 @@ import avatar from './avatar.png'
 * */
 
 // нужно создать правильный тип вместо any
-export type MessageType = any
+type User = {
+    avatar: string
+    name: string
+};
+type MessageData = {
+    text: string
+    time: string
+};
+export type MessageType = {
+    id: number
+    user: User
+    message: MessageData
+}
 
 // структуру объекта не менять
 export const message0: MessageType = {
@@ -24,7 +36,7 @@ export const message0: MessageType = {
         name: 'Some Name',  // можно менять
     },
     message: {
-        text: 'some textsome textsome textsome textsome textsome textsome text', // можно менять
+        text: 'some text some text some text some text some text some text', // можно менять
         time: '22:00', // можно менять
     },
 }
@@ -50,7 +62,6 @@ const HW1 = () => {
                     <Message message={message0} />
                     <FriendMessage message={friendMessage0} />
                 </div>
-
                 {/*для автоматической проверки дз (не менять)*/}
                 <MessageSender M={Message} />
             </div>
